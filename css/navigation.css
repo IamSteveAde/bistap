@@ -1,0 +1,189 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* Css code for the navbar */
+@keyframes slideInFromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+.lock-scroll {
+    overflow: hidden;
+}
+.navbar{
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #013133;
+    padding: 10px 50px;
+    animation: 1s ease-in slideInFromTop;
+    top: 0;
+    
+    font-weight: 600;
+    font-size: 16px;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+.navbar .logo img{
+    height: 63px;
+    cursor: pointer;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.navbar .logo img:hover{
+    filter: brightness(0.7);
+    -webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+.navbar .nav_links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+.navbar .nav_links li a{
+    padding: 0;
+    margin-left: 30px;
+    text-decoration: none;
+    animation: 1.5s ease-in 0s 1 slideInFromTop;
+}
+.navbar .nav_links li .text_link{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+.navbar .nav_links li .text_link:hover{
+    text-decoration: none;
+    color: #138086;
+}
+.navbar .nav_links li .text_link:visited{
+    text-decoration: none;
+}
+.navbar .nav_links li .active_link{
+    color: #138086 !important;
+}
+.navbar .nav_links li .active_link:hover{
+    color: #fff !important;
+}
+.sidebar_control_container{
+    display: none;
+    align-items: center;
+}
+.togglebuttoncontainer{
+    display: none;
+    justify-content: center;
+    cursor: pointer;
+}
+.togglebutton{
+    font-size: 28px;
+    color: #138086;
+    z-index: 1000;
+}
+#closebtn{
+    position: fixed;
+}
+#menubtn, #closebtn{
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    display: none;
+    z-index: 100;
+    color: #138086;
+}
+#menubtn:hover, #closebtn:hover, #menubtn:active, #closebtn:active{
+    color: #138086;
+}
+
+/* Tab Screen */
+@media only screen and (max-width: 768px) {
+    .navbar{
+        padding: 10px 40px;
+        overflow: visible;
+    }
+    @keyframes navFadeInFromSide {
+        0% {
+            opacity: 0;
+            right: 0%;
+        }
+        100% {
+            opacity: 1;
+            right: 5%;
+        }
+    }
+    #closebtn{
+        right: 5%;
+        animation: 0.8s ease-in 0.2s 1 navFadeInFromSide;
+        z-index: 200;
+    }
+    .navbar .nav_links{
+        position: fixed;
+        top: 0%;
+        right: 0px;
+        bottom: 0%;
+        background-color: rgb(0, 0, 0, 0.9);
+        -webkit-backdrop-filter: blur(3rem);
+        backdrop-filter: blur(3rem); 
+        display: block;
+        width: 0px;
+        transition: 0.5s ease-in width;
+        text-align: center;
+        margin: 0;
+        z-index: 100;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .navbar .nav_links li:first-child{
+        margin-top: 80px;
+    }
+    @keyframes navFadeInFromTop {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .navbar .nav_links li{
+        padding: 20px 0px;
+        margin-left: 0px;
+        text-align: center;
+        animation: 1s ease-in 1s 1 navFadeInFromTop;
+    }
+    .navbar .nav_links li a{
+        margin-left: 0px;
+    }
+    .sidebar_control_container{
+        display: flex;
+    }
+    #menubtn{
+        display: block;
+    }
+    .active:hover{
+        color: #138086 !important;
+    }
+    .togglebuttoncontainer{
+        display: flex;
+    }
+}
+    /* Phone Screen */
+@media only screen and (max-width: 600px){
+    .navbar{
+        padding: 10px 20px;
+    }
+    .navbar .logo img{
+        height: 50px;
+    }
+}
