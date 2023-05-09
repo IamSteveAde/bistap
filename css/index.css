@@ -730,15 +730,24 @@ input[type=submit]:hover{
     }
     .service-items i{
         position: relative;
-        top: 60%;
+        top: 90px;
         font-size: 30px;
         color: #013133;
        
     }
     .service-items h1{
-        margin-top: 140px;
+        top: -10px;
         position: relative;
         
+    }
+    .service-items p{
+        position: relative;
+        top: -35px;
+
+    }
+
+    .service-items{
+        display: grid;
     }
     .service .service-header h1{
         border-left: #013133 solid 3px;
