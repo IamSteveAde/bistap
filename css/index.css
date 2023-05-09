@@ -730,7 +730,7 @@ input[type=submit]:hover{
     }
     .service-items i{
         position: relative;
-        top: 40%;
+        top: 60%;
         font-size: 30px;
         color: #013133;
        
@@ -746,7 +746,7 @@ input[type=submit]:hover{
         width: 100%;    
         
         position: relative;
-        left: -70px;
+        left: -100px;
     }
     .gallery{
         display: grid;   
