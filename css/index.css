@@ -808,6 +808,7 @@ input[type=submit]:hover{
     }
     .foot{
         display: grid;
+        height: auto;
     }
     .foot1{
         position: relative;
@@ -834,6 +835,16 @@ input[type=submit]:hover{
     .gallery h1{
         
     }
+    .foot{
+        display: grid;
+    }
+    .foot1{
+        float: none;
+    }
+    .foot2{
+        float: none;
+    }
+
 
 }
 #tops{
