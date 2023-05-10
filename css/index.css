@@ -859,4 +859,161 @@ input[type=submit]:hover{
 #tops{
     display: none;
 }
+/**tab view**/
+@media (max-width: 768px){
+    .main-container{
+        height: 20%;
+        
+    }
+    .inner h1{
+        font-size: 35px;
+    }
+    .inner p{
+        font-size: 20px;
+    }
+    .inner{
+        position: relative;
+        left: 30px;
+        top: 130px;
+    }
+    .inner .but{
+        width: 180px;
+        font-size: 15px;
+    }
+    .intro, .intro1, .intro2{
+        min-height: 65vh;
+    }
+    .service{
+        margin-top: -250px;
+    }
+    .services{
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        margin-left: -30px;
+    }
+    .service-items i{
+        position: relative;
+        top: 90px;
+        font-size: 30px;
+        color: #013133;
+       
+    }
+    .service-items h1{
+        top: -10px;
+        position: relative;
+        
+    }
+    .service-items p{
+        position: relative;
+        top: -35px;
+
+    }
+
+    .service-items{
+        display: grid;
+    }
+    .service .service-header h1{
+        border-left: #013133 solid 3px;
+        padding-left: 10px;
+        width: 100%;    
+        
+        position: relative;
+        left: -100px;
+    }
+    .gallery{
+        display: grid; 
+  
+    }
+    .help h1{
+        font-size: 30px;
+    }
+    .help{
+        position: relative;
+        left: 30px
+    }
+    .slider{
+        position: relative;
+        left: 50px;
+        top: -5px;
+    }
+    .abt{
+        display: grid;
+        margin-left: -45px;
+        width: 90%;
+        margin-bottom: -20px;
+    }
+    #tops{
+        display: grid; 
+    }
+    .abt-heading{
+        display: none;
+    }
+    .clients{
+        display: grid;
+    }
+    .form_container{
+        width: 90%;
+        margin-left: 6px;
+        margin-top: 30px;
+    }
+    .abt1{
+        position: relative;
+        left: -40px;
+        margin-top: -80px;
+        
+    }
+    .abt1 img{
+        width: 20rem;
+        height: 15rem;
+    }
+    .foot{
+        display: grid;
+        height: auto;
+    }
+    .foot1{
+        position: relative;
+        left: 30px;
+    }
+    .foot2{
+        float: none;
+        position: relative;
+        left: 30px;
+        margin-bottom: 60px;
+    }
+    .foot2 ul{
+        position: relative;
+        left: -30px;
+    }
+    .foot2 i{
+        position: relative;
+        left: 10px;
+    }
+    .subscribe-button{
+        background-color: #013133;
+    }
+    .services{
+        position: relative;
+        left: -15px;
+    }
+    .gallery{
+        height: 45rem;
+        background: linear-gradient(rgba(1, 41, 38, 0.7), rgba(1, 41, 38, 0.7)), url("/img/liine.png") fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .gallery h1{
+        
+    }
+    .foot{
+        display: grid;
+    }
+    .foot1{
+        float: none;
+    }
+    .foot2{
+        float: none;
+    }
+
+
+}
 
