@@ -1019,7 +1019,7 @@ input[type=submit]:hover{
 /**big view**/
 @media (max-width: 900px){
     .main-container{
-        height: 20%;
+        
         
     }
     .inner h1{
@@ -1031,38 +1031,38 @@ input[type=submit]:hover{
     .inner{
         position: relative;
         left: 30px;
-        top: 130px;
+        top: 80px;
     }
     .inner .but{
         width: 180px;
         font-size: 15px;
     }
     .intro, .intro1, .intro2{
-        min-height: 65vh;
+        min-height: 100vh;
     }
     .service{
-        margin-top: -250px;
+        margin-top: 100px;
     }
     .services{
         display: grid;
-        grid-template-columns: repeat(1, minmax(0, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         margin-left: -30px;
     }
     .service-items i{
         position: relative;
-        top: 90px;
+        top: 20px;
         font-size: 30px;
         color: #013133;
        
     }
     .service-items h1{
-        top: -10px;
+        top: -60px;
         position: relative;
         
     }
     .service-items p{
         position: relative;
-        top: -35px;
+        top: -85px;
 
     }
 
@@ -1119,22 +1119,26 @@ input[type=submit]:hover{
         margin-top: -80px;
         
     }
+    .aboutus{
+        margin-top: 40px;
+    }
     .abt1 img{
         width: 20rem;
         height: 15rem;
     }
     .foot{
-        display: grid;
+        display: flex;
         height: auto;
     }
     .foot1{
         position: relative;
         left: 30px;
+        float: left;
     }
     .foot2{
-        float: none;
+        float: right;
         position: relative;
-        left: 30px;
+        left: 130px;
         margin-bottom: 60px;
     }
     .foot2 ul{
@@ -1153,7 +1157,7 @@ input[type=submit]:hover{
         left: -15px;
     }
     .gallery{
-        height: 45rem;
+        height: 25rem;
         background: linear-gradient(rgba(1, 41, 38, 0.7), rgba(1, 41, 38, 0.7)), url("/img/liine.png") fixed;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1161,15 +1165,8 @@ input[type=submit]:hover{
     .gallery h1{
         
     }
-    .foot{
-        display: grid;
-    }
-    .foot1{
-        float: none;
-    }
-    .foot2{
-        float: none;
-    }
+    
+   
 
 
 }
