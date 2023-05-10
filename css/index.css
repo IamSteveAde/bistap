@@ -249,7 +249,7 @@ html{
 
 }
 
-.foot1 .subscribe-button, .sub-mail{
+.foot1 .subscribes-button, .subs-mail{
     width: 10rem;
     height: 2rem;
     border: 1px solid #013133;
@@ -264,7 +264,7 @@ html{
 .foot1 .subscribe-mail{
     background-color: #01313321;
 }
-.foot1 .subscribe-button :hover{
+.foot1 .subscribes-button :hover{
     background-color: #013133;
     border: white 1px solid;
 }

@@ -19,7 +19,7 @@ body{
     overflow: hidden;
 }
 .navbar{
-    position: fixed;
+    
     z-index: 99;
     width: 100%;
     display: flex;
