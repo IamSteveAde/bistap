@@ -700,7 +700,7 @@ input[type=submit]:hover{
 
 
 /**Mobile view**/
-@media (max-width: 600px){
+@media only screen and (max-width: 600px) {
     .main-container{
         height: 20%;
         
@@ -860,7 +860,7 @@ input[type=submit]:hover{
     display: none;
 }
 /**tab view**/
-@media (max-width: 768px){
+@media only screen and (min-width: 768px) {
     .main-container{
         height: 20%;
         
@@ -1017,7 +1017,7 @@ input[type=submit]:hover{
 
 }
 /**big view**/
-@media (max-width: 900px){
+@media only screen and (min-width: 900px) {
     .main-container{
         
         
