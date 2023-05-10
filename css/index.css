@@ -175,6 +175,9 @@ html{
     left: 3%;
     margin-top: 100px;
     display: flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.13)), url("/img/line-removebg-preview.png") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .gallery h1{
     font-size: 59px;
@@ -758,7 +761,8 @@ input[type=submit]:hover{
         left: -100px;
     }
     .gallery{
-        display: grid;   
+        display: grid; 
+  
     }
     .help h1{
         font-size: 30px;
@@ -813,6 +817,19 @@ input[type=submit]:hover{
         float: none;
         position: relative;
         left: 30px;
+    }
+    .subscribe-button{
+        background-color: #013133;
+    }
+    .services{
+        position: relative;
+        left: -15px;
+    }
+    .gallery{
+        height: 35rem;
+    }
+    .gallery h1{
+        margin-top: 80px;
     }
 
 }
