@@ -827,7 +827,7 @@ input[type=submit]:hover{
     }
     .gallery{
         height: 45rem;
-        background: linear-gradient(rgba(1, 41, 38, 0.7), rgba(0, 0, 0, 0.13)), url("/img/liine.png") fixed;
+        background: linear-gradient(rgba(1, 41, 38, 0.7), rgba(1, 41, 38, 0.7)), url("/img/liine.png") fixed;
         background-repeat: no-repeat;
         background-size: cover;
     }
