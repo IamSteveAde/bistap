@@ -853,6 +853,14 @@ input[type=submit]:hover{
     .foot2{
         float: none;
     }
+    .slide h2{
+        position: relative;
+        top: 180px;
+        color: white;
+        left: 10px;
+        font-size: 15px;
+    }
+    
 
 
 }
@@ -1017,6 +1025,13 @@ input[type=submit]:hover{
         width: 20rem;
         height: 13rem;
     }
+    .slide h2{
+        position: relative;
+        bottom: 0px;
+        color: white;
+        left: 10px;
+    }
+    
     
    
 
@@ -1024,5 +1039,48 @@ input[type=submit]:hover{
 }
 .service-items h1{
     font-size: 24px;
+}
+#poo{
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/img/aecf17e8e7b040229de33d373a12cd9d.jpg") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#poo1{
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/img/7815d063d8034afaa631ded1f267e864.jpg") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#poo2{
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/img/49fd8c8ee0d77f49800c0aaf601818b2.jpg") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#poo3{
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/img/IMG-20220811-WA0017.jpg") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#poo4{
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/img/IMG-20230312-WA0088.jpg") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#poo5{
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/img/IMG-20220811-WA0005.jpg") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.slide h2{
+    position: relative;
+    bottom: -200px;
+    color: white;
+    left: 200px;
+    font-size: 18px;
 }
 
