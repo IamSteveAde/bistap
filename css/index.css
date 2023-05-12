@@ -1076,6 +1076,42 @@ input[type=submit]:hover{
     background-size: cover;
     
 }
+#poo6{
+    background:url("/img/25c8a0ed479d4b32b931a30c649ba529.jpg") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#poo7{
+    background:url("/img/b8a5c94478a2b0fadf62b96c99e4453e.jpg") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#poo8{
+    background:url("/img/IMG-20220811-WA0001.jpg") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#poo9{
+    background:url("/img/IMG-20220811-WA0002.jpg") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#poo10{
+    background:url("/img/IMG-20220811-WA0003.jpg") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#poo11{
+    background:url("/img/IMG-20220811-WA0004.jpg") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 .slide h2{
     position: relative;
     bottom: -200px;
